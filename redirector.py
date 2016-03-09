@@ -1,8 +1,7 @@
 #!usr/bin/python
-#-*- coding: utf-8 -
+
 
 import webApp
-import socket
 
 class Redirector(webApp.webApp):
     """"Clase Redirectora"""
