@@ -31,7 +31,7 @@ class webApp:
 
         return ("200 OK", "<html><body><h1>It works!</h1></body></html>")
 
-        def __init__(self, hostname, port):
+    def __init__(self, hostname, port):
         """Initialize the web application."""
 
         # Create a TCP objet socket and bind it to a port
